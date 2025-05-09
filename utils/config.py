@@ -9,11 +9,11 @@ class Config:
     """Configuration class for the application"""
     
     # API Keys
-    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyCt6NWL9kIkw3b9Z1Ad86X47piJSKjrEks")
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "YOUR_API_KEY")
     
     # Supabase Configuration
-    SUPABASE_URL = os.getenv("SUPABASE_URL", "https://gaoljwhtzjpaeaegwxes.supabase.co")
-    SUPABASE_KEY = os.getenv("SUPABASE_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdhb2xqd2h0empwYWVhZWd3eGVzIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0NjUyNDQ0MCwiZXhwIjoyMDYyMTAwNDQwfQ.cvKWmWzsG7OiXSLTQRGeX1FMco29Miz_e9HTuMRMAFQ")
+    SUPABASE_URL = os.getenv("SUPABASE_URL", "YOUR_URL")
+    SUPABASE_KEY = os.getenv("SUPABASE_KEY", "YOUR_API_KEY")
     
     # Flask Configuration
     FLASK_ENV = os.getenv("FLASK_ENV", "development")
